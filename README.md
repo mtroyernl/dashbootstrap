@@ -1,5 +1,7 @@
 # dashbootstrap
 
+Created by Mark Troyer & Fons Janssen -  30 December 2016
+
 This respository explains how to build a DASH-link button circuit.  The highlights of this circuit are as follows:
 
 - Ideal for battery applications triggered by momentary push button.
