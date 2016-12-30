@@ -25,9 +25,9 @@ When the processing on the ESP8266 is complete, the open collector can be closed
 
 Hardware Connections:
 
-3.3v supply--transistor emitter
-transistor collector--3.3v on Wemos
-GND supply--GND on Wemos
-transistor base--resistor--switch--GND.
-D5 pin linked to resistor--switch junction.
-D2 pin--Blue LED--GND
+- 3.3v supply--transistor emitter
+- transistor collector--3.3v on Wemos
+- GND supply--GND on Wemos
+- PNP transistor base--resistor--switch--GND.
+- D5 pin linked to resistor--switch junction.
+- D2 pin--Blue LED--GND
