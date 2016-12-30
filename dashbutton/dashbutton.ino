@@ -1,5 +1,7 @@
 
 /*
+  Created by Mark Troyer 30 December 2016
+  
   DASH BUTTON APP
   
   BOM: Wemos D1 Mini, a PNP transistor (a BC638), a 100 Ohm resistor and a momentary switch.
