@@ -17,7 +17,7 @@
 void setup() {
   // Set up open collector pin ON
   pinMode(D5, OUTPUT);
-  digitalWrite(D5, LOW);
+  digitalWrite(D5, LOW);  // Pull open collector to ground (keep PNP transistor ON)
   
   //WiFi.forceSleepBegin(); // Optionally turn off ESP8266 RF
   //delay(1);               // give RF section time to shutdown
@@ -33,6 +33,6 @@ void loop() {
 
   // After 3 seconds, cut power to ESP8266
   if (millis() > 3000) {
-    pinMode(D5, INPUT); // Set up open collector pin OFF
+    pinMode(D5, INPUT); // Stop open collector (turn off PNP trnasistor and cut power to ESP8266)
   }
 }
