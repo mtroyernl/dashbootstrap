@@ -9,7 +9,7 @@ This respository explains how to build a DASH-link button circuit.  The highligh
 - Less than 0.5uA consumed while WeMos D1 Mini is powered off (leakage from PNP transistor)
 - Bootstrap sequence allows for the startup of the ESP8266
 - Open collector configuration workaround using Arduino IDE on ESP8266
-- Hardware concept can me modeled around any microprocessor.
+- Hardware concept can be modeled around any microprocessor.
 
 The Bill of Materials are as follows:
 
