@@ -23,6 +23,7 @@ While not explicitly supported on the ESP8266 in the Arduino IDE, this circuit u
 
 When the processing on the ESP8266 is complete, the open collector can be closed with the "pinMode(D5, INPUT);" command.  The Blue LED on D2 is only used to signal that the Wemos D1 Mini is energized.
 
+![alt tag](schem.png)
 Hardware Connections:
 
 - 3.3v supply--transistor emitter
