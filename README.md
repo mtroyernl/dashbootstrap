@@ -14,7 +14,7 @@ This respository explains how to build a DASH-like button circuit.  The highligh
 The Bill of Materials are as follows:
 
 - Wemos D1 Mini (ESP8266)
-- BC638 PHP transistor
+- BC638 PNP transistor
 - 100 Ohm transistor
 - Momentary switch
 - Blue LED
