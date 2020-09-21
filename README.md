@@ -2,7 +2,7 @@
 
 Created by Mark Troyer & Fons Janssen -  30 December 2016
 
-This respository explains how to build a DASH-like button circuit.  The highlights of this circuit are as follows:
+This respository explains how to build an efficient low-power circuit that powers a micro-processor after the pressing of a momentary DASH-like button and then shuts off power to the micro-processor when done.  The highlights of this circuit are as follows:
 
 - Ideal for battery applications that consume no power when off.
 - ESP8266 is boot strapped ON with click of momentary push button.
@@ -18,6 +18,7 @@ The Bill of Materials are as follows:
 - 100 Ohm transistor
 - Momentary switch
 - Blue LED
+- LiFiPO4 battery with voltage between 3.0 and 3.6v
 
 While not explicitly supported on the ESP8266 in the Arduino IDE, this circuit uses a open collector configuration with the PNP transistor base to energize the ESP8266.  The PNP Transistor will be boot strapped with the momentary button being pulled to ground.   Once the ESP8266 starts, the open collector configuration will persist with the "pinMode(D5, OUTPUT); digitalWrite(D5, LOW);" commands, keeping the ESP8266 running.  
 
